@@ -152,11 +152,20 @@
  */
 - (id)initWithMessageName:(NSString *)name {
     if ( self = [super init] ) {
-        messageName = name;
+        messageName = [name copy];
     }   
     
     return self;
 }
+
+
+- (void)dealloc {
+	[argumentNames release], argumentNames = nil;
+	[argumentValues release], argumentValues = nil;
+    [messageName release], messageName = nil;
+    [super dealloc];
+}
+
 
 /*
  * Builds and returns a string representing the method invocation represented by this object. The returned
