@@ -1,0 +1,491 @@
+TKPWebViewInterceptor
+v7
+r0
+t303525584.261350
+cCheck dependencies
+cProcessInfoPlistFile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/Info.plist" KPWebViewInterceptor-Info.plist
+cCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib"
+cCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib"
+cCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/interceptorexample.html interceptorexample.html
+cCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor.js KPWebViewInterceptor.js
+cCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib"
+cCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/kip.css kip.css
+cProcessPCH /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch.gch KPWebViewInterceptor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/main.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorAppDelegate.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorViewController.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor-725101920AB3813B.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPMessageViewController.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor" normal i386
+cGenerateDSYMFile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor"
+cTouch "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C2A1B720000000000000110
+t1277827954
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.h
+c000000004C672CEA0000000000000453
+t1281830122
+s1107
+i<Foundation/Foundation.h>
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m
+c000000004C672EA60000000000001B56
+t1281830566
+s6998
+i"KPWebViewInterceptor.h"
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.h
+c000000004C67292A00000000000001EA
+t1281829162
+s490
+i<UIKit/UIKit.h>
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m
+c000000004C672969000000000000023E
+t1281829225
+s574
+i"KPMessageViewController.h"
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib
+c000000004C672F55000000000000671E
+t1281830741
+s26398
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.h
+c000000004C672E3C0000000000000241
+t1281830460
+s577
+i<UIKit/UIKit.h>
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m
+c000000004C6725D700000000000007FA
+t1281828311
+s2042
+i"KPWebViewInterceptorAppDelegate.h"
+i"KPWebViewInterceptorViewController.h"
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.h
+c000000004C672A0400000000000003DF
+t1281829380
+s991
+i<UIKit/UIKit.h>
+i"KPWebViewInterceptor.h"
+i"KPMessageViewController.h"
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m
+c000000004C672EEB00000000000007D6
+t1281830635
+s2006
+i"KPWebViewInterceptorViewController.h"
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor.js
+c000000004C67213A00000000000001DE
+t1281827130
+s478
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib
+c000000004C672F740000000000005D8B
+t1281830772
+s23947
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor_Prefix.pch
+c000000004C66F88000000000000000D1
+t1281816704
+s209
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib
+c000000004C66F8800000000000004D8B
+t1281816704
+s19851
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app
+t1281832784
+s374
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM
+t1281830651
+s102
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/Info.plist
+t1281817399
+s856
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPMessageViewController.nib
+t1281830858
+s2689
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor
+t1281830651
+s34792
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor.js
+t1281827804
+s478
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptorViewController.nib
+t1281830858
+s1148
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/MainWindow.nib
+t1281817400
+s1149
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/PkgInfo
+t1281817399
+s8
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/interceptorexample.html
+t1281832784
+s3052
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/kip.css
+t1281832332
+s701
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPMessageViewController.o
+t1281829413
+s40440
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor-725101920AB3813B.o
+t1281830651
+s30136
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.LinkFileList
+c000000004C672A2400000000000003E2
+t1281829412
+s994
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.o
+t1281817795
+s18536
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorAppDelegate.o
+t1281830475
+s48024
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorViewController.o
+t1281830651
+s49868
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/main.o
+t1281817402
+s6360
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPMessageViewController.plist
+t1281829529
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptor-725101920AB3813B.plist
+t1281830533
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptor.plist
+t1281817723
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptorAppDelegate.plist
+t1281830533
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptorViewController.plist
+t1281830213
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/main.plist
+t1281817406
+s276
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/interceptorexample.html
+c000000004C6737E40000000000000BC2
+t1281832932
+s3010
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/kip.css
+c000000004C67358900000000000002BD
+t1281832329
+s701
+
+N/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m
+c000000004C66F880000000000000017B
+t1281816704
+s379
+i<UIKit/UIKit.h>
+
+N/var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch.pth
+t1281817406
+s2129480
+
+N/var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch.gch
+t1281817402
+s13825936
+
+NKPWebViewInterceptor-Info.plist
+c000000004C6737F100000000000004B2
+t1281832945
+s1202
+
+CAnalyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m"
+s303523333.922044
+e303523334.005997
+r1
+xAnalyze
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m
+lSLF07#2@118"Analyze /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m303523333#303523334#0(0"0(0#0#110"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m8707302912#2580"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch --analyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptor-725101920AB3813B.plist"0#
+
+CAnalyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m"
+s303522329.256872
+e303522329.334304
+r1
+xAnalyze
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m
+lSLF07#2@109"Analyze /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m303522329#303522329#0(0"0(0#0#101"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m8712190048#2557"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch --analyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPMessageViewController.plist"0#
+
+CAnalyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m"
+s303523333.829195
+e303523333.921815
+r1
+xAnalyze
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m
+lSLF07#2@117"Analyze /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m303523333#303523333#0(0"0(0#0#109"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m8711009696#2573"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch --analyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptorAppDelegate.plist"0#
+
+CAnalyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m"
+s303523013.883415
+e303523013.972103
+r1
+xAnalyze
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m
+lSLF07#2@120"Analyze /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m303523013#303523013#0(0"0(0#0#112"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m8644091872#2579"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch --analyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/KPWebViewInterceptorViewController.plist"0#
+
+CAnalyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m"
+s303510206.395516
+e303510206.493904
+r1
+xAnalyze
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m
+lSLF07#2@82"Analyze /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m303510206#303510206#0(0"0(0#0#74"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m8707903840#2511"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch --analyze "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303525584#303525584#0(132"[WARN]warning: no rule to process file '$(PROJECT_DIR)/KPWebViewInterceptor.js' of type sourcecode.javascript for architecture i3861(22@125"warning: no rule to process file '$(PROJECT_DIR)/KPWebViewInterceptor.js' of type sourcecode.javascript for architecture i386303525584#18446744073709551615#0#0(1@0"0(0#1#0"8706287136#0"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPMessageViewController.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303522213.494692
+e303522213.634577
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPMessageViewController.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m303522213#303522213#0(0"0(0#0#101"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m8713488736#2548"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPMessageViewController.o"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor-725101920AB3813B.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303523451.186155
+e303523451.335543
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor-725101920AB3813B.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m303523451#303523451#0(0"0(0#0#110"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m8713271584#2571"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor-725101920AB3813B.o"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303510594.992240
+e303510595.163294
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m303510594#303510595#0(0"0(0#0#110"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m8639873824#2554"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/Interceptor/KPWebViewInterceptor.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.o"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorAppDelegate.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303523275.620804
+e303523275.746541
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorAppDelegate.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m303523275#303523275#0(0"0(0#0#109"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m8625474880#2564"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorAppDelegate.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorAppDelegate.o"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorViewController.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303523451.117528
+e303523451.332649
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorViewController.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m303523451#303523451#0(0"0(0#0#112"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m8706992480#2570"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPWebViewInterceptorViewController.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptorViewController.o"0#
+
+CCompileC build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/main.o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s303510202.323857
+e303510202.402637
+r1
+xCompileC
+xbuild/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/main.o
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m303510202#303510202#0(0"0(0#0#74"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m8707019296#2502"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -include /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/main.m" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib"
+s303523658.283235
+e303523658.894114
+r1
+xCompileXIB
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib
+lSLF07#2@46"CompileXIB Classes/KPMessageViewController.xib303523658#303523658#0(0"0(0#0#103"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib8713706368#710"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPMessageViewController.nib" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/Classes/KPMessageViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib"
+s303523658.269838
+e303523658.956558
+r1
+xCompileXIB
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib
+lSLF07#2@49"CompileXIB KPWebViewInterceptorViewController.xib303523658#303523658#0(0"0(0#0#106"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib8609167360#724"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptorViewController.nib" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptorViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib"
+s303510199.205684
+e303510200.768486
+r1
+xCompileXIB
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib303510199#303510200#0(0"0(0#0#82"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib8641678368#676"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/MainWindow.nib" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor.js KPWebViewInterceptor.js
+s303520604.380451
+e303520604.386292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor.js
+xKPWebViewInterceptor.js
+lSLF07#2@28"Copy KPWebViewInterceptor.js303520604#303520604#0(0"0(0#0#91"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor.js8712507840#573"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor.js" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"0#
+
+CCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/interceptorexample.html interceptorexample.html
+s303525584.203513
+e303525584.236886
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KPWebViewInterceptor.app/interceptorexample.html
+xinterceptorexample.html
+lSLF07#2@28"Copy interceptorexample.html303525584#303525584#0(0"0(0#0#91"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/interceptorexample.html8647468544#573"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/interceptorexample.html" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"0#
+
+CCpResource build/Debug-iphonesimulator/KPWebViewInterceptor.app/kip.css kip.css
+s303525132.972275
+e303525132.985995
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KPWebViewInterceptor.app/kip.css
+xkip.css
+lSLF07#2@12"Copy kip.css303525132#303525133#0(0"0(0#0#75"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/kip.css8629879232#557"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/kip.css" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"0#
+
+CGenerateDSYMFile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM" "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor"
+s303523451.360834
+e303523451.386861
+r1
+xGenerateDSYMFile
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor
+lSLF07#2@148"GenerateDSYMFile build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor303523451#303523451#0(0"0(0#0#141"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor8709446656#515"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor" -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app.dSYM"0#
+
+CLd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor" normal i386
+s303523451.335643
+e303523451.360709
+r1
+xLd
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor
+xnormal
+xi386
+lSLF07#2@146"Link /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor303523451#303523451#0(0"0(0#0#0"8710288672#1120"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" -filelist "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/Objects-normal/i386/KPWebViewInterceptor.LinkFileList" -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/KPWebViewInterceptor"0#
+
+CProcessInfoPlistFile "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/Info.plist" KPWebViewInterceptor-Info.plist
+s303510199.187505
+e303510199.205578
+r1
+xProcessInfoPlistFile
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/Info.plist
+xKPWebViewInterceptor-Info.plist
+lSLF07#2@39"Process KPWebViewInterceptor-Info.plist303510199#303510199#0(0"0(0#0#99"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor-Info.plist5785770319207949312#611"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility KPWebViewInterceptor-Info.plist -genpkginfo "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app/Info.plist"0#
+
+CProcessPCH /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch.pth KPWebViewInterceptor_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s303510205.400771
+e303510206.394384
+r1
+xProcessPCH
+x/var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch.pth
+xKPWebViewInterceptor_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@42"Precompile KPWebViewInterceptor_Prefix.pch303510205#303510206#0(0"0(0#0#99"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor_Prefix.pch8708401792#2341"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor_Prefix.pch" -o /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-dmhxwzmroitpfigguzckyufpemrs/KPWebViewInterceptor_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch.gch KPWebViewInterceptor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303510200.866696
+e303510202.323537
+r1
+xProcessPCH
+x/var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch.gch
+xKPWebViewInterceptor_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile KPWebViewInterceptor_Prefix.pch303510200#303510202#0(0"0(0#0#99"/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor_Prefix.pch8702384160#2350"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-generated-files.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-own-target-headers.hmap" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-all-target-headers.hmap" -iquote "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/KPWebViewInterceptor-project-headers.hmap" "-F/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/include" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources/i386" "-I/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/KPWebViewInterceptor.build/Debug-iphonesimulator/KPWebViewInterceptor.build/DerivedSources" -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/KPWebViewInterceptor_Prefix.pch" -o /var/folders/lr/lrdhd5CyGQ8afn+S0nZhq++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KPWebViewInterceptor_Prefix-exsxqfmzkifffbeplkephqnpomyg/KPWebViewInterceptor_Prefix.pch.gch0#
+
+CTouch "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"
+s303525584.237886
+e303525584.261305
+r1
+xTouch
+x/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app
+lSLF07#2@126"Touch /Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app303525584#303525584#0(0"0(0#0#0"8629879232#353"    cd "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dannywartnaby/Development/iPad Projects/KPWebViewInterceptor/build/Debug-iphonesimulator/KPWebViewInterceptor.app"0#
+

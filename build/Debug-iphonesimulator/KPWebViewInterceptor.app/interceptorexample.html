@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>Interceptor example</title>
+  
+  <link rel="stylesheet" type="text/css" href="./kip.css">
+
+  <script type="text/javascript" src="./KPWebViewInterceptor.js"></script>
+  
+  <script type="text/javascript">
+    function sayHello() {
+      objc_msgsend('sayHello');
+    }
+    
+    function sayMessageInputValue() {
+      objc_msgsend( 'say', val( 'message' ) );
+    }
+  
+    function sayMessageInputValueWithTitle() {
+      objc_msgsend( 'say', val( 'multi-arg-message' ), 'withTitle', val( 'title' ) );
+    }
+    
+    function val( elementId ) {
+      return document.getElementById( elementId ).value
+    }
+  </script>
+</head>
+<body>
+
+<h1>KPWebViewInterceptor</h1>
+<h4>KPWebViewInterceptor.js includes the important objc_msgsend function.</h4>
+
+<p>This is a pretty straightforward mechanism to enable Javascript invocation of Objective-C code in your ViewControllers.</p>
+
+<p>The KPWebViewInterceptor class does the heavy lifting, acting as a delegate that sits between your WebView and ViewController.
+To use this functionality simply instantiate a new KPWebViewInterceptor and attach it to your WebView and ViewController using the
+<em>attach</em> method.</p>
+
+<h4>How it works</h4>
+<p>The KPWebViewInterceptor class simply responds to the WebView's shouldStartLoadWithRequest delegate method. If the request's absolute URL 
+is prefixed with "invoke:", the request is trapped. If it doesn't the shouldStartLoadWithRequest delegate is propergated to your ViewController. The 
+objc_msgsend function provided by the KPWebViewInterceptor.js file provides a consistant approach to formatting and invoking requests.</p>
+
+<p>Calls made using the objc_msgsend function are <strong>automatically</strong> invoked on your ViewController. You do not need to 
+implement any additional functionality or protocols.</p>
+
+<h4>Examples</h4>
+
+<h5>Calling:</h5>
+<div class="code">
+  objc_msgsend('sayHello');
+</div>
+
+<h5>Will automatically invoke:</h5>
+<div class="code">
+  - (void)sayHello;
+</div>
+
+<br/>
+
+<h5>Calling:</h5>
+<div class="code">
+  objc_msgsend( 'say', 'the message' );
+</div>
+
+<h5>Will automatically invoke:</h5>
+<div class="code">
+  - (void)say:(NSString *)message;
+</div>
+
+<br/>
+
+<h5>Calling:</h5>
+<div class="code">
+  objc_msgsend( 'say', 'the message', 'withTitle', 'title here' );
+</div>
+
+<h5>Will automatically invoke:</h5>
+<div class="code">
+  - (void)say:(NSString *)message withTitle:title;
+</div>
+
+
+<h1>Working examples</h1>
+<h4>The following links invoke methods in KPWebViewInterceptorViewController.</h4> 
+
+<div class="test">
+  <a href="#" onclick="sayHello(); return false;">Say hello!</a>
+</div>
+
+<div class="test">
+  <label for="message">Message:</label><input id="message"/>
+  <a href="#" onclick="sayMessageInputValue(); return false;">Say!</a>
+</div>
+
+<div class="test">
+  <label for="multi-arg-message">Message:</label><input id="multi-arg-message"/>
+  <label for="title">With Title:</label><input id="title"/>
+  <a href="#" onclick="sayMessageInputValueWithTitle(); return false;">Say!</a>
+</div>
+
+</body>
+</html>
